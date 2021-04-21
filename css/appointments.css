@@ -1,0 +1,36 @@
+
+.container-table {
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  padding: 3%;
+  margin-top: 5%;
+}
+
+.container-form {
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  padding: 3%;
+}
+
+.appt-table {
+  border: 3px solid black;
+  text-align: center;
+}
+
+.appt-header {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  text-align: center;
+  width: 5%;
+  height: 50px;
+}
+
+.appt-cell {
+  border: 2px solid black;
+  text-align: center;
+  height: 50px;
+}
+
+
