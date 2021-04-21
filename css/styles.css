@@ -56,12 +56,3 @@ footer {
       clear: left;
     }
 }
-@media print {
-    min-width: 481px;
-}
-  
-
-
-
-
-
