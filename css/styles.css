@@ -1,0 +1,67 @@
+body, header, main, footer, h1, h2, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+nav {
+    background-color: #386641;
+    text-decoration: none;
+    padding: 2;
+    font-size: 2em;
+}
+
+nav li {
+    display: inline;
+}
+nav li a {
+    color: white;
+}
+
+main {
+    padding: 1%;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+  }
+
+.image {
+    width: 20%;
+    float: left;
+    display: block;
+    padding: 2%;
+}
+
+article {
+    padding: 2%;
+    margin: 2%;
+    background-color: #F2E8CF;
+}
+
+footer {
+    padding: 2%;
+    background-color: #6A994E;
+}
+
+/* Media Query for Tablet Viewport */
+@media only screen and (min-width: 481px){
+    article {
+      width: 90%;
+      float: left;
+      height: auto;
+    }
+    footer {
+      clear: left;
+    }
+}
+@media print {
+    min-width: 481px;
+}
+  
+
+
+
+
+
