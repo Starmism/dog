@@ -4,20 +4,6 @@ body, header, main, footer, h1, h2, section {
     border: 0;
 }
 
-nav {
-    background-color: #386641;
-    text-decoration: none;
-    padding: 2;
-    font-size: 2em;
-}
-
-nav li {
-    display: inline;
-}
-nav li a {
-    color: white;
-}
-
 main {
     padding: 1%;
 }
