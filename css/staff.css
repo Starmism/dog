@@ -69,7 +69,7 @@ a:link {
 }
 
 a:visited {
-	color: #6A994E;
+	color: #A7C957;
 }
 
 @media only screen and (max-width: 600px) {
@@ -104,5 +104,6 @@ a:visited {
     }
     footer {
       clear: left;
+	  padding: 4%
     }
 }
