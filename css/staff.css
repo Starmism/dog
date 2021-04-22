@@ -1,0 +1,112 @@
+body, header, main, footer, h2, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+main {
+    padding: 1%;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+	
+	width: 500px;
+	height: 500px;
+  }
+
+.image {
+    width: 20%;
+    float: left;
+    display: block;
+    padding: 2%;
+}
+
+article {
+    padding: 2%;
+    margin: 2%;
+    background-color: #F2E8CF;
+}
+
+footer {
+    padding: 2%;
+    background-color: #6A994E;
+}
+
+article {
+	grid-template-columns: 2;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.gridContent {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	margin-left: 5%;
+	margin-top: 2%;
+}
+
+.container {
+	position: absolute;
+}
+
+.bottomleft {
+	position: absolute;
+	bottom: 8px;
+	left: 0px;
+	font-size: 18px;
+	width: 100%;
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: darkgrey;
+}
+
+a:hover {
+	color: grey;
+}
+
+@media only screen and (max-width: 600px) {
+	
+	.grid {
+	  display: grid;
+	  grid-template-columns: 1fr;
+	  margin-left: 5%;
+	  margin-top: 2%;
+	}
+
+	.gridContent {
+		display: grid;
+		grid-template-columns: 1fr;
+		margin-left: 5%;
+		margin-top: 2%;
+	}
+	
+	img {
+		width: 375px;
+		height: 375px;
+	}
+	
+}
+
+/* Media Query for Tablet Viewport */
+@media only screen and (min-width: 481px){
+    article {
+      width: 90%;
+      float: left;
+      height: auto;
+    }
+    footer {
+      clear: left;
+    }
+}
