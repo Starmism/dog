@@ -65,15 +65,11 @@ article {
 }
 
 a:link {
-	color: black;
+	color: #BC4749;
 }
 
 a:visited {
-	color: darkgrey;
-}
-
-a:hover {
-	color: grey;
+	color: #6A994E;
 }
 
 @media only screen and (max-width: 600px) {
