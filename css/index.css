@@ -26,11 +26,12 @@ article {
   padding: 4%;
   margin: 4%;
   background-color: #F2E8CF;
+  font-size: 1.5em;
 }
 
 .image {
   width: 20%;
   float: left;
-  display: block;
+  display: float;
   padding: 2%;
 }
