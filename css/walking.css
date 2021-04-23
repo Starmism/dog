@@ -1,17 +1,20 @@
-body, header, main, footer, h1, h2, section {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
-main {
-    padding: 1%;
-}
-
 img {
     max-width: 100%;
     display: block;
+    opacity: .8;
   }
+
+.image-container {
+  position: relative;
+  text-align: center;
+  color:#0c1a38;
+  font-size: 6em;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
 
 .image {
     width: 20%;
@@ -20,15 +23,34 @@ img {
     padding: 2%;
 }
 
+.profile {
+    padding: 2%;
+    width: 75%;
+}
+
 article {
     padding: 2%;
     margin: 2%;
     background-color: #F2E8CF;
 }
 
-footer {
-    padding: 2%;
-    background-color: #6A994E;
+#intro {
+    background-color: white; 
+    text-align: center;
+    font-size: 1.2em;
+}
+
+main section {
+    column-count: 2;
+    column-gap: 30px;
+    column-rule: 1px solid #1f3da0;
+    padding: 4%;
+    font-size: 1.5em;
+
+}
+
+article h2 {
+    text-align: center;
 }
 
 /* Media Query for Tablet Viewport */
