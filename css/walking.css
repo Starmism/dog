@@ -36,6 +36,12 @@ article {
     background-color: #F2E8CF;
 }
 
+#intro {
+    background-color: white; 
+    text-align: center;
+    font-size: 1.2em;
+}
+
 main section {
     column-count: 2;
     column-gap: 30px;
