@@ -1,13 +1,11 @@
 function formSubmit() {
-  const formElement = document.getElementById('form-response')
-  const selection = document.getElementById('dayselect')
-
-  if (selection.options[selection.selectedIndex].value === 'Monday') {
-    formElement.innerText = 'Monday is our break day!'
-  } else {
-    formElement.innerText = 'Form successfully submitted! See you soon! :)'
-  }
+  window.confetti({
+    particleCount: 300,
+    spread: 180
+  });
 }
+
+
 
 function updatePrice() {
   const daySelect = document.getElementById('dayselect')
