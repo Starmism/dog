@@ -3,3 +3,11 @@ article {
  border: 3px solid #000000;
  padding: 2%;
 }
+
+img {
+ float: left;
+}
+
+p {
+ float: right;
+}
