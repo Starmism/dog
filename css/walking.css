@@ -4,6 +4,10 @@ body, header, main, footer, h1, h2, article {
   border: 0;
 }
 
+h1{
+  font-family: 'Roboto Mono', monospace;
+}
+
 main {
   margin: 4%;
   padding: 4%;
@@ -17,6 +21,10 @@ main {
 
 .link {
   color: #BC4749;
+}
+
+.link:hover {
+  color: #6A994E;
 }
 
 img {
